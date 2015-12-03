@@ -14,11 +14,12 @@ jquery plugin for ajax
  $('ul li').ajaxLoading('#wrapper','#container','mouseenter')
 ```
 ## 调用方法：
-- $('selector').ajaxLoading(target,cover,event),
-- $('selector').ajaxLoading(target),
-- $('selector').ajaxLoading(target,cover),
+- $('selector').ajaxLoading(target,cover,event)
+- $('selector').ajaxLoading(target)
+- $('selector').ajaxLoading(target,cover)
 - $('selector').ajaxLoading(target,cover,event,options)
-- $('selector').ajaxLoading(options),
+- $('selector').ajaxLoading(options)
+
 ## 参数：
 - target: 类型为选择器字符串或DOM元素或jQuery对象,ajax请求返回的HTML代码写入的位置,相当于$(target).html(data);
 - cover：类型为选择器字符串或DOM元素或jQuery对象,ajax请求等待服务器返回过程中需要遮盖的区域,遮盖区域禁止操作,默认与response同值;
